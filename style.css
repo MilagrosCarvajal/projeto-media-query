@@ -23,11 +23,11 @@ main{
     margin-top: 20px;
     padding: 15px;
     border-radius: 10px;
+    text-align: center;
 }
 
 main h1{
     color: white;
-    text-align: center;
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.696);
 }
 
@@ -40,3 +40,13 @@ img#tablet{display: none;}
 img#print{display: none;}
 img#pc{display: none;}
 img#tv{display: none;}
+
+main a{
+    text-decoration: none;
+    color: black;
+}
+
+main a:hover{
+    color: rgb(114, 114, 114);
+    text-decoration:underline;
+}
